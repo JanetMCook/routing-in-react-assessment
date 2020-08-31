@@ -17,7 +17,7 @@ function App() {
         <Route
           exact
           path="/"
-          render={(props) => <Welcome {...props} name="janet" />}
+          render={(props) => <Welcome {...props} name="Home" />}
         />
 
         <Route
